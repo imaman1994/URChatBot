@@ -58,6 +58,6 @@ response = client.chat.completions.create(
     ],
 )
 
-
+print('hello')
 
 print(response.choices[0].message.content)
